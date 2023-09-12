@@ -1,0 +1,24 @@
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: block;
+    background-color: #352e2e;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+label:hover {
+    background-color: #423737;
+}
+
+p {
+    display: none;
+}
+
+label>input[type="radio"]:checked + p{
+    display: block;
+}
